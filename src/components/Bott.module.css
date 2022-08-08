@@ -1,0 +1,109 @@
+.bot {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+
+}
+
+.botleft {
+    width: 50%;
+}
+
+.botleft img {
+    width: 450px;
+    margin-left: 10vw;
+}
+
+.botright {
+    width: 50%;
+}
+
+.botright h1 {
+    line-height: 43px;
+}
+
+.botright p {
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #B1B1B1;
+    margin-top: 5px;
+}
+
+.servicestop {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.servicestop img {
+    margin: 0;
+}
+
+
+.services button {
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    background-color: #5FAEC4;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.services button:hover {
+    background-color: #324551;
+    cursor: pointer;
+}
+
+
+.services {
+    margin: 5px;
+}
+
+.services span {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 40px;
+    width: 130px;
+}
+
+.icontactR {
+    margin-right: -1px;
+}
+
+@media (max-width:390px) {
+    .bot {
+        width: 380px;
+        justify-content: center;
+        margin-left: 8px;
+    }
+
+    .bot p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .bot h1 {
+        text-align: center;
+    }
+
+    .botleft {
+
+        display: none;
+    }
+
+    .services {
+        width: 100px;
+        margin-left: -80px;
+    }
+
+    .services button {
+        margin-left: 140px;
+    }
+
+}

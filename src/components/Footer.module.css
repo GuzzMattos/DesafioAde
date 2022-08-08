@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5vh;
+    justify-content: center;
+    text-align: start;
+    background-color: #272B35;
+    color: white;
+    width: 100vw;
+
+
+}
+
+.footer p {
+    font-weight: 300;
+
+}
+
+.footer h1 {
+    margin-top: 5vh;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.linhavertical {
+    height: 230px;
+    border-right: 1px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+@media (max-width:390px) {
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer h1 {
+        font-size: 21px;
+        width: 5vw;
+    }
+}

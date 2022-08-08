@@ -1,0 +1,229 @@
+.top {
+    background-color: #272B35;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+
+}
+
+.icone {
+    width: 30vh;
+    padding-top: 2vh;
+    padding-right: 5vw;
+    padding-left: 6vw;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    padding-top: 2vh;
+}
+
+.item {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 2vw;
+    font-size: 14px;
+}
+
+.item:hover {
+    color: #5FAEC4;
+    font-weight: 400;
+}
+
+.cadastro {
+    display: flex;
+    padding-top: 2.5vh;
+    align-items: center;
+}
+
+.login {
+    outline: 0;
+    display: flex;
+    font-weight: 400;
+    background: none;
+    border: none;
+    margin-left: 15vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+
+.login:hover {
+    color: #5FAEC4;
+    cursor: pointer;
+}
+
+
+.signin {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin-left: 3vw;
+    background-color: #324551;
+    color: white;
+    font-weight: 100;
+
+}
+
+.signin:hover {
+    background-color: #5FAEC4;
+    cursor: pointer;
+}
+
+.banner {
+    margin-top: 16vh;
+    margin-left: 130px;
+    display: flex;
+    background-color: #272B35;
+}
+
+.bannerleft {
+    width: 50vw;
+}
+
+.h1banner {
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+    line-height: 53px;
+}
+
+.pbanner {
+    margin-top: 10px;
+    color: #B1B1B1;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 17px;
+
+}
+
+.bannerright {
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    width: 50vw;
+    background-color: #272B35;
+
+}
+
+.bannerrightC {
+    width: 200px;
+    z-index: 1;
+    margin-top: -22rem;
+    margin-left: -10vw;
+    height: 348px;
+
+}
+
+.bannerrightF img {
+    width: 330px;
+    top: 0px;
+}
+
+.buttonsbannerleft {
+    display: flex;
+    font-weight: 100;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+.buttonsbannerleft button {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 22px;
+    background-color: #5FAEC4;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.buttonsbannerleft button:hover {
+    background-color: #324551;
+    cursor: pointer;
+}
+
+.buttonsbannerleft img {
+    margin-left: 10%;
+}
+
+.buttonsbannerleft span:hover {
+    color: #5FAEC4;
+    cursor: pointer;
+}
+
+.buttonsbannerleft img:hover {
+    cursor: pointer;
+}
+
+.buttonsbannerleft span {
+    margin-left: 3%;
+}
+
+.newimg {
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    background-color: #343954;
+    width: 320px;
+    padding: 8px;
+    border-radius: 30px;
+
+}
+
+.new2img {
+    margin-right: 1vw;
+}
+
+@media (max-width:390px) {
+    .newimg {
+        margin-left: -3vw;
+        width: 200px;
+    }
+
+    .bannerright {
+        display: none;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        margin-right: 0;
+        font-size: 6px;
+    }
+
+    .cadastro {
+        margin-left: 0;
+
+    }
+
+    .login {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:390px) {
+    .banner {
+        justify-content: center;
+        text-align: center;
+        margin-right: 100px;
+        width: 30vw;
+    }
+}

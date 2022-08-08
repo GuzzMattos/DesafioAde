@@ -1,0 +1,88 @@
+.retangle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #626262;
+    background-color: white;
+    width: 60vw;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px rgb(136, 136, 136);
+    margin-left: 18vw;
+    margin-right: 20vw;
+    top: 65vh;
+    position: absolute;
+}
+
+.midimgp {
+    display: flex;
+    padding: 20px;
+    margin-left: 1.5vw;
+    gap: 18rem;
+}
+
+.midimgp img {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+.midimgpL {
+    justify-content: flex-start;
+    margin-right: 10px;
+
+}
+
+.midimgpR {
+    justify-content: flex-end;
+    align-items: end;
+    text-align: end;
+}
+
+.midimgpR p {
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+
+}
+
+
+
+.brands {
+    display: flex;
+    padding: 20px;
+}
+
+.brands img {
+    margin-left: 1.5vw;
+    margin-right: 2vw;
+    width: 14%
+}
+
+@media (max-width: 1280px) {
+
+    .retangle {
+        top: 75vh;
+    }
+
+    .midimgp {
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .retangle {
+        display: none;
+    }
+}
+
+@media (min-width: 1601px) {
+    .retangle {
+        top: 60vh;
+    }
+
+    .midimgp {
+        gap: 30rem;
+    }
+}
